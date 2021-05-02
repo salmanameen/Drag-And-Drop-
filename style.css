@@ -1,0 +1,33 @@
+body{
+    background-color:rgb(0, 163, 218);
+}
+
+
+.imgBox{
+    background-image: url('/img/photo.png');
+    width: 145px;
+    position: relative;
+    height: 145px;
+    top: 5px;
+    left: 5px;
+    cursor: pointer;
+}
+
+.whitBox{
+    background-color: white;
+    height: 155px;
+    width: 155px;
+    margin: 10px;
+    display: inline-block;
+    border: 2px solid black;
+  
+}
+
+
+.hold{
+    border: 2px solid red;
+}
+
+.hide{
+    display: none;
+}
